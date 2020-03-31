@@ -1,10 +1,5 @@
 #библеотеки
-try:
-    import requests, random,sys,os
-
-
-except:
-    print('У вас не установлены библеотеки для работы смс бомбера!\n(requests, random, datetime, sys, time, argparse, os,colorama)')
+import requests, random,sys,os
 
 def sent (_phone, _name):
     for x in range(12):
