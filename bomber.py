@@ -1,7 +1,7 @@
 #библеотеки
 try:
-    import requests, random, datetime, sys, time, argparse, os
-    from colorama import Fore, Back, Style
+    import requests, random,sys,os
+
 
 except:
     print('У вас не установлены библеотеки для работы смс бомбера!\n(requests, random, datetime, sys, time, argparse, os,colorama)')
