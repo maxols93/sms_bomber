@@ -1,5 +1,5 @@
 #библеотеки
-import requests, random,sys,os
+import requests, random,os
 
 def sent (_phone, _name):
     for x in range(12):
@@ -330,7 +330,7 @@ def main():
 ▀▀░ ▀░░░▀ ▀▀░     ▀▀░ ░▀░ ▀░░░▀ ▀▀░ ▀▀▀ ▀░▀▀ 
 
 КОМАНДЫ:
-spam|начать спам на номер
+spam|начать спам 
 ''')
     command = input('Введите комманду:')
     if command == 'cls':
