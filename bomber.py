@@ -323,30 +323,24 @@ def sent (_phone, _name):
 
 def main():
     print('''
-АВТОР saywex
-
-▄▀▀ █▄░▄█ ▄▀▀     █▀▄ ▄▀▄ █▄░▄█ █▀▄ █▀▀ █▀▀▄ 
-░▀▄ █░█░█ ░▀▄     █▀█ █░█ █░█░█ █▀█ █▀▀ █▐█▀ 
-▀▀░ ▀░░░▀ ▀▀░     ▀▀░ ░▀░ ▀░░░▀ ▀▀░ ▀▀▀ ▀░▀▀ 
-
-КОМАНДЫ:
-spam|начать спам 
+АВТОР @saywex 
+▄▀▀ █▄░▄█ ▄▀▀   █▀▄ ▄▀▄ █▄░▄█ █▀▄ █▀▀ █▀▀▄ 
+░▀▄ █░█░█ ░▀▄   █▀█ █░█ █░█░█ █▀█ █▀▀ █▐█▀ 
+▀▀░ ▀░░░▀ ▀▀░   ▀▀░ ░▀░ ▀░░░▀ ▀▀░ ▀▀▀ ▀░▀▀ 
 ''')
-    command = input('Введите комманду:')
-    if command == 'cls':
-        os.system ('clear')
-
-    if command == 'spam':
-        _phone = input('Привет!Введи номер ---->')
-        _name = ''
-        if _phone[0] == '+':
-            _phone = _phone[1:]
-        if _phone[0] == '8':
-            _phone = '7'+_phone[1:]
-        if _phone[0] == '9':
-            _phone = '7'+_phone
-        sent(_phone,_name)
-
+    
+    _phone = input('Привет!Введи номер ---->')
+    
+    _name = ''
+    
+    if _phone[0] == '+':
+        _phone = _phone[1:]
+    if _phone[0] == '8':
+        _phone = '7'+_phone[1:]
+    if _phone[0] == '9':
+       _phone = '7'+_phone
+    sent(_phone,_name)
+    
 
 
 if __name__ == '__main__':
