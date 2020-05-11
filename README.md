@@ -1,4 +1,4 @@
-SMS BOMBER by SAYWEX😎
+SMS BOMBER by <a href='https://github.com/Saywex89'>SAYWEX😎</a>
 
 53 services🔥
 
