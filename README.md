@@ -8,10 +8,11 @@ git clone https://github.com/Saywex89/sms_bomber 🔥
 
 pip3 install requests 🔥
 
-<h2>Запуск<h2>
-cd sms_bomber 🔥
+<h2>Запуск</h2>
+  
+<p>cd sms_bomber 🔥</p>
 
-python3 bomber.py 🔥
+<p>python3 bomber.py 🔥</p>
 
 
 
