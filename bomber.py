@@ -1,5 +1,7 @@
-#библеотеки
-import requests, random,os
+
+import requests
+import random
+import os
 
 def sent (_phone, _name):
     for x in range(12):
